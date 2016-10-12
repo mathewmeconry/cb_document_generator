@@ -4,12 +4,15 @@ Little nodejs application to create massive amout of documents in couchbase
 ## Command
 cbdg is the commandline executable
 
+## Install
+npm i -g cb_document_generator
+
 ## Parameters
   --threads / -t [underline](number of concurrent threads)   Spawn new child processes                                                     
   --server / -s servername                                   Servername                                                                    
   --bucket / -b bucketname                                   bucketname (default value: default)                                                                    
   --count / -c count                                         How many documents should be written (If not defined or set to 0 = unlimited)   
-  --jsonTemplate / -j path                                   Path to the json template. (default value: defaultTemplate.json of the repo) Definition help: https://github.com/webroo/dummy-json                                                            json#getting-started                                                          
+  --jsonTemplate / -j path                                   Path to the json template. (default value: defaultTemplate.json of the repo) Definition help: https://github.com/webroo/dummy-json#getting-started                                                          
   --help / -h                                                Print this usage guide.  
 <br><br>
 
