@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": {
     "cbdg": "index.js",
-    "cb_document_generator": "index.js",
+    "cb_document_generator": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
