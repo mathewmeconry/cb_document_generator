@@ -1,0 +1,6 @@
+{
+  "globalDependencies": {
+    "progress": "registry:dt/progress#1.1.8+20160906145338",
+    "randomstring": "registry:dt/randomstring#1.1.4+20160509083842"
+  }
+}

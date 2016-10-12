@@ -1,0 +1,23 @@
+{
+  "name": "cb_document_generator",
+  "version": "1.0.0",
+  "description": "Generates random JSON documents and saves them to couchbase.",
+  "main": "index.js",
+  "bin": {
+    "cbdg": "index.js",
+    "cb_document_generator": "index.js",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathias Scherer",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "command-line-usage": "^3.0.3",
+    "couchbase": "^2.2.3",
+    "dummy-json": "^1.0.1",
+    "progress": "^1.1.8",
+    "randomstring": "^1.1.5"
+  }
+}
