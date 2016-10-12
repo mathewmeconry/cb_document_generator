@@ -1,17 +1,24 @@
 {
   "name": "cb_document_generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates random JSON documents and saves them to couchbase.",
   "main": "index.js",
   "bin": {
     "cbdg": "index.js",
     "cb_document_generator": "index.js"
   },
+  "bugs": {
+    "url": "https://github.com/mathewmeconry/cb_document_generator/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathewmeconry/cb_document_generator.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mathias Scherer",
-  "license": "ISC",
   "dependencies": {
     "command-line-args": "^3.0.1",
     "command-line-usage": "^3.0.3",
