@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var commandLineArgs = require('command-line-args')
 var getUsage = require('command-line-usage')
 var child_process = require('child_process');

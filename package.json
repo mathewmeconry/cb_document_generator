@@ -1,6 +1,6 @@
 {
   "name": "cb_document_generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates random JSON documents and saves them to couchbase.",
   "main": "index.js",
   "bin": {
